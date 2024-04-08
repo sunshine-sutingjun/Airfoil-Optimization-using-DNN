@@ -19,7 +19,7 @@ import pickle
 from tensorflow.keras.callbacks import ReduceLROnPlateau, EarlyStopping, ModelCheckpoint
 np.set_printoptions(threshold=sys.maxsize)
 pd.set_option("display.max_rows", None, "display.max_columns", None)
-result = pd.read_pickle(r'C:/Users/lihen/projects/tf-gpu-MNIST/naca4_clcd_turb_st_3para.pkl', compression=None)
+result = pd.read_pickle(r'./naca4_clcd_turb_st_3para.pkl', compression=None)
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 
